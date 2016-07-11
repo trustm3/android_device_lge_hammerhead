@@ -41,7 +41,7 @@
 #define STATE_HDR_OFF "state=3"
 
 #define MAX_LENGTH         50
-#define BOOST_SOCKET       "/dev/socket/pb"
+#define BOOST_SOCKET       "/data/trustme-com/power/pb"
 
 #define UEVENT_MSG_LEN 2048
 #define TOTAL_CPUS 4
