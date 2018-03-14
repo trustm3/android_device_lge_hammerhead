@@ -23,7 +23,8 @@
 # *not* include it on all devices, so it is safe even with hardware-specific
 # components.
 
-ifneq ($(filter hammerhead, $(TARGET_DEVICE)),)
+#ifneq ($(filter hammerhead, $(TARGET_DEVICE)),)
+ifneq ($(filter hammerhead trustme_hammerhead_%, $(TARGET_DEVICE)),)
 
 LOCAL_PATH := $(call my-dir)
 
